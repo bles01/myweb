@@ -30,8 +30,8 @@ pipeline{
                        ]
                   ], 
                   credentialsId: 'nexus3', 
-                  groupId: 'in.javahome', 
-                  nexusUrl: '13.127.55.33.154:8081', 
+                  groupId: 'in.javahome',
+                  nexusUrl: '172.31.39.36:8081', 
                   nexusVersion: 'nexus3', 
                   protocol: 'http', 
                   repository: 'sample-releases', 
